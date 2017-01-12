@@ -5,6 +5,7 @@ body{
 	overflow-x: hidden;
 	margin: 0;
 	padding: 0;
+	height: 100%;
 
 }
 
@@ -75,9 +76,8 @@ form{
 #information-categories{
 	position: relative;
 	width: 100vw;
-	height: 500px;
-/*	padding: 30px;
-*/}
+	height: 300px;
+}
 
 .category-divs{
 	position: relative;
