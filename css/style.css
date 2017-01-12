@@ -21,12 +21,16 @@ h2{
 
 h3{
 	color: #009688;
-	font-size: 23px;
+	font-size: 19px;
 }
 
 a{
 	color: #009688;
 	text-decoration: none;
+}
+
+a:hover{
+	color: #999;
 }
 
 nav{
@@ -66,5 +70,57 @@ nav li{
 form{
 	margin: 0 auto;
 	width: 707px;
+}
+
+#information-categories{
+	position: relative;
+	width: 100vw;
+	height: 500px;
+/*	padding: 30px;
+*/}
+
+.category-divs{
+	position: relative;
+	display: inline;
+	float: left;
+	width: 27%;
+	height: 200px;
+	text-align: center;
+	padding: 30px;
+	margin: 15px; 
+}
+
+.category-divs img{
+	height: 66%;
+}
+
+
+footer{
+	padding: 15px;
+	background-color: #999;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	height: 15px;
+	font-size: 12px;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer a:hover{
+	color: #009688;
+}
+
+footer ul{
+	list-style-type: none;
+	display: inline;
+}
+
+footer li{
+	float: left;
+	padding-left: 16px;
+	text-decoration: none;	
 }
 
